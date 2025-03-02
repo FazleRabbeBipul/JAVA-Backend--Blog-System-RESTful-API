@@ -7,7 +7,7 @@ This is a Spring Boot application that implements a Blog System with CRUD operat
 2. [Technologies Used](#technologies-used)
 3. [Setup and Installation](#setup-and-installation)
 4. [Running the Application](#running-the-application)
-5. [API Documentation](./API_Documentation.md)
+5. [API Documentation](API_Documentation.md)
 
 ## Features
 - **User Management**: Register users with email, username, and password.
@@ -50,5 +50,5 @@ Once the application is running, you can access it via:
 
 - **http://localhost:8080** – Main application endpoint.
 
-For further details on the available API endpoints, please refer to the [API Documentation](./API_Documentation.md).
+For further details on the available API endpoints, please refer to the [API Documentation](API_Documentation.md).
 
