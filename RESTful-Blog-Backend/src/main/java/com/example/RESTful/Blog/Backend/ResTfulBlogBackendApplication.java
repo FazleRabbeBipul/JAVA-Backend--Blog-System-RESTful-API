@@ -11,3 +11,5 @@ public class ResTfulBlogBackendApplication {
 	}
 
 }
+// component scan
+// configuration

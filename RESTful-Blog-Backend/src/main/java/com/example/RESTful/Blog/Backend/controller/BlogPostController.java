@@ -14,6 +14,7 @@ import java.util.List;
 public class BlogPostController {
     private final BlogPostService blogPostService;
 
+    // Spring injects this automatically
     @Autowired
     public BlogPostController(BlogPostService blogPostService) {
         this.blogPostService = blogPostService;
