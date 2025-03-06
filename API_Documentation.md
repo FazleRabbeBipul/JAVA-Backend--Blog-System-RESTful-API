@@ -1,10 +1,12 @@
 # API Documentation
 
-## Authentication
+---
 
-### Register a User
+## Authentication Endpoint
 
-**Endpoint:** `POST /auth/register`
+### 1. Register a User
+
+**POST:** ` http://localhost:8080/auth/register`
 
 **Request Body:**
 
@@ -15,18 +17,26 @@
     "username": "user1"
 }
 ```
+---
+### 2. View All Users
+**GET** `http://localhost:8080/auth/users`
+
+### 3. View User by ID
+**GET** `http://localhost:8080/auth/users/{id}`
+
+### 4. Delete a User by ID
+**DELETE** `http://localhost:8080/auth/users/{id}`
 
 ---
+## Categories Endpoint
 
-## Categories
+### 1. Get All Categories
 
-### Get All Categories
+**GET:** ` /categories`
 
-**Endpoint:** `GET /categories`
+### 2. Create a Category
 
-### Create a Category
-
-**Endpoint:** `POST /categories`
+**POST:** ` /categories`
 
 **Request Body:**
 
@@ -36,25 +46,25 @@
 }
 ```
 
-### Get Category by ID
+###3. Get Category by ID
 
-**Endpoint:** `GET /categories/{id}`
+**GET:** ` /categories/{id}`
 
 ---
 
-## Blog Posts
+## Blog Posts Endpoints
 
-### Get All Blog Posts
+### 1. Get All Blog Posts
 
-**Endpoint:** `GET /blogs`
+**GET:** ` /blogs`
 
-### Get a Blog Post by ID
+### 2. Get a Blog Post by ID
 
-**Endpoint:** `GET /blogs/{id}`
+**GET:** ` /blogs/{id}`
 
-### Create a Blog Post
+### 3. Create a Blog Post
 
-**Endpoint:** `POST /blogs`
+**POST:** ` /blogs`
 
 **Request Body:**
 
@@ -67,9 +77,9 @@
 }
 ```
 
-### Update a Blog Post
+### 4. Update a Blog Post
 
-**Endpoint:** `PUT /blogs/{id}`
+**PUT:** ` /blogs/{id}`
 
 **Request Body:**
 
@@ -81,29 +91,29 @@
 }
 ```
 
-### Delete a Blog Post
+### 5. Delete a Blog Post
 
 **Endpoint:** `DELETE /blogs/{id}`
 
 ---
 
-## Comments
+## Comments Endpoint
 
-### Get All Comments
+### 1. Get All Comments
 
-**Endpoint:** `GET /comments`
+**GET:** ` /comments`
 
-### Get a Comment by ID
+###  2.Get a Comment by ID
 
-**Endpoint:** `GET /comments/{id}`
+**GET:** ` /comments/{id}`
 
-### Get All Comments for a Blog Post
+### 3. Get All Comments for a Blog Post
 
-**Endpoint:** `GET /comments/post/{postId}`
+**GET:** ` /comments/post/{postId}`
 
-### Create a Comment
+### 4. Create a Comment
 
-**Endpoint:** `POST /comments`
+**POST:** ` /comments`
 
 **Request Body:**
 
@@ -115,9 +125,9 @@
 }
 ```
 
-### Update a Comment
+### 5. Update a Comment
 
-**Endpoint:** `PUT /comments/{id}`
+**PUT:** ` /comments/{id}`
 
 **Request Body:**
 
