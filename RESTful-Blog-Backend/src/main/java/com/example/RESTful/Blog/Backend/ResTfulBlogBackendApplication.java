@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ResTfulBlogBackendApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ResTfulBlogBackendApplication.class, args);
 	}
 
 }
-// component scan
-// configuration
